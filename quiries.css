@@ -1,0 +1,79 @@
+/*
+MEDIA QUERIES
+*/
+
+@media (max-width:700px) {
+    .intro_line1,
+    .intro_line2,
+    .intro_line3 {
+        left: 80px;
+        font-size: 40px;
+    }
+
+}
+  
+.hero_img{
+    height: 350px;
+} 
+.hero_img_border{
+    right: 80px;
+    height: 350px;
+}
+
+.intro_line3 span:nth-child(1){
+    display: inline;
+}
+.intro_line3 span:nth-child(2){
+    display: block;
+    width: 350px;
+}
+
+.hero-name{
+    font-size: 30px;
+}
+
+.menu-items {
+ font-size: 20px;
+}
+
+@media (max-width:1200px) {
+    .intro_line1,
+    .intro_line2,
+    .intro_line3,
+    .intro_line2 span
+    .intro_line3 span
+    {
+        left: 80px;
+    }
+
+}
+  
+.hero_img{
+    height: 350px;
+} 
+.hero_img_border{
+    right: 80px;
+    height: 350px;
+}
+
+.intro_line3 span:nth-child(1){
+    display: inline;
+}
+.intro_line3 span:nth-child(2){
+    display: block;
+    width: 350px;
+}
+
+.hero-name{
+    font-size: 30px;
+}
+
+.menu-items {
+ font-size: 20px;
+}
+ @media (max-width:600px) {
+     .hero_intro h1{
+         top: 100px;
+         font-size: 35px;
+     }
+ }
